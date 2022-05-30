@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementById e innerHTML</title>
+</head>
+<script>
+    function init() {
+        var planet = document.getElementById("greenPlanet")
+        planet.innerHTML = "Red Alert: hit by phaser fire!"
+    }
+    window.onload = init
+</script>
+
+<body>
+    <h1>getElementById e innerHTML</h1>
+
+    <h1>Green Planet</h1>
+    <p id="greenPlanet">All is well</p>
+    <h1>Red Planet</h1>
+    <p id="redlanet">Nothing to report</p>
+    <h1>Blue Planet</h1>
+    <p id="bluePlanet">All systems A-OK</p>
+</body>
+
+</html>

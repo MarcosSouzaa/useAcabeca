@@ -45,4 +45,7 @@
               //******* OU POSSO ESCREVER ASSIM:*********** 
               //Combinando as 3 condicionais em uma instrução if usando || (OR)   
            
+console.log("legal")
+
+
 
